@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header, Footer, Filter Box, and Results</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <div class="container">
+        <section class="filters">
+            <div class="locations">
+                <h3>States</h3>
+                <ul class="popover">
+                    <li>
+                        <h2>New York</h2>
+                        <ul>
+                            <li>New York City</li>
+                            <li>Albany</li>
+                            <li>Buffalo</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>California</h2>
+                        <ul>
+                            <li>Los Angeles</li>
+                            <li>San Francisco</li>
+                            <li>San Diego</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <ul class="popover">
+                    <li>Swimming Pool</li>
+                    <li>Gym</li>
+                    <li>Restaurant</li>
+                </ul>
+            </div>
+            <button class="search-button">Search</button>
+        </section>
+
+        <section class="results">
+            <article>
+                <h2>Place 1</h2>
+                <div class="price_by_night">$100</div>
+                <div class="information">
+                    <div class="max_guest">
+                        <img src="images/icon-guest.png" alt="Number of guests icon">
+                        <span>Guests: 4</span>
+                    </div>
+                    <div class="number_rooms">
+                        <img src="images/icon-bedroom.png" alt="Number of bedrooms icon">
+                        <span>Bedrooms: 2</span>
+                    </div>
+                    <div class="number_bathrooms">
+                        <img src="images/icon-bathroom.png" alt="Number of bathrooms icon">
+                        <span>Bathrooms: 1</span>
+                    </div>
+                </div>
+                <div class="user">
+                    <strong>Owner:</strong> Fake Owner
+                </div>
+                <div class="description">
+                    Fake description text here...
+                </div>
+            </article>
+           
+        </section>
+    </div>
+
+    <footer>
+        Best School
+    </footer>
+</body>
+</html>

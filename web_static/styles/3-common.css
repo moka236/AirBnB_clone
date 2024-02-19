@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header, footer {
+    width: 100%;
+}
+
+header {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+footer {
+    border-top: 1px solid #CCCCCC;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
